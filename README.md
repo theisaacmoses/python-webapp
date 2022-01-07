@@ -21,18 +21,37 @@ Pre-Requisites:
 
 Run the application:
 Open a CMD terminal and given that you have the pre-requisites installed and configured, you need to run the following command in the same directory as this file:
-``````````````````````````
-``` kubectl apply -f . ```
-``````````````````````````
+
+``` 
+kubectl apply -f . 
+```
+
 
 Go to your browser and open the following link in your browser:
-`````````````````````````
-``` http://localhost/ ```
-`````````````````````````
+
+``` 
+http://localhost/ 
+```
+
 
 You should see the following output in the browser:
-````````````````````
-``` Hello world! ```
+
+``` 
+Hello world! 
+```
+
+NOTE:
+
+I have built the dockerfile and pushed it to my dockerhub which is public so the scripts should be able to pull docker image without any issue.
+
+I have used the following commands to build and push the docker image. (Make sure you are in the same directory as the Dockerfile) ->
+`````
+docker build -t theisaacmoses/python-webapp:latest
+`````
+
+``` 
+docker push theisaacmoses/python-webapp:latest
+````
 
         
         
