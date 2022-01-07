@@ -34,4 +34,3 @@ Go to your browser and open the following link in your browser:
 You should see the following output in the browser:
 ````````````````````
 ``` Hello world! ```
-```````````````````
