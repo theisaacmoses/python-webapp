@@ -1,8 +1,8 @@
-Author: Isaac Moses
+Author: **Isaac Moses**
 
-Project: Running a web application (using Python and K8s)
+**Project**: Running a web application (using Python and K8s)
 
-Pre-Requisites:
+**Pre-Requisites**:
 
 - DOCKER DESKTOP (DOCKER & KUBERNETES)
     Installing Docker desktop, will automatically install docker. Else you can choose to install manually using the following link -> https://docs.docker.com/engine/install/
@@ -13,7 +13,7 @@ Pre-Requisites:
         - Linux -> https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
         - Windows -> https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
 
-How to run:
+**How to run**:
 
 Open a CMD terminal and given that you have the pre-requisites installed and configured, you need to run the following command in the same directory as this file:
 
@@ -35,7 +35,7 @@ You should see the following output in the browser:
 Hello world! 
 ```
 
-NOTE:
+**Note**:
 
 I have built the dockerfile and pushed it to my dockerhub which is public so the scripts should be able to pull docker image without any issue.
 
