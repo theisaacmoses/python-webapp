@@ -46,7 +46,7 @@ I have built the dockerfile and pushed it to my dockerhub which is public so the
 
 I have used the following commands to build and push the docker image. (Make sure you are in the same directory as the Dockerfile) ->
 `````
-docker build -t theisaacmoses/python-webapp:latest
+docker build -t theisaacmoses/python-webapp:latest .
 `````
 
 ``` 
