@@ -19,7 +19,8 @@ Pre-Requisites:
 - ISTIO
     For installing istio, refer to the following link -> https://istio.io/latest/docs/setup/install/helm/
 
-Run the application:
+How to run:
+
 Open a CMD terminal and given that you have the pre-requisites installed and configured, you need to run the following command in the same directory as this file:
 
 ``` 
